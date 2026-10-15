@@ -11,6 +11,10 @@
 	"bugs": "https://github.com/bitfocus/companion-module-nextkon-screen/issues",
 	"maintainers": [
 		{
+			"name": "Michael Humme",
+			"github": "HummeTS"
+		},
+		{
 			"name": "TS Veranstaltungstechnik GmbH & Co. KG",
 			"email": "support@nextkon.de",
 			"url": "https://nextkon.de"
