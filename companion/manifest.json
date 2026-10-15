@@ -1,0 +1,29 @@
+{
+	"$schema": "../node_modules/@companion-module/base/assets/manifest.schema.json",
+	"type": "connection",
+	"id": "nextkon-screen",
+	"name": "nextkon-screen",
+	"shortname": "nextkon-screen",
+	"description": "Switch the digital name signs of NextKon Screen (lectern, panel table, door signs) from Companion",
+	"version": "0.0.0",
+	"license": "MIT",
+	"repository": "git+https://github.com/bitfocus/companion-module-nextkon-screen.git",
+	"bugs": "https://github.com/bitfocus/companion-module-nextkon-screen/issues",
+	"maintainers": [
+		{
+			"name": "TS Veranstaltungstechnik GmbH & Co. KG",
+			"email": "support@nextkon.de",
+			"url": "https://nextkon.de"
+		}
+	],
+	"runtime": {
+		"type": "node26",
+		"api": "nodejs-ipc",
+		"apiVersion": "0.0.0",
+		"entrypoint": "../dist/main.js"
+	},
+	"legacyIds": [],
+	"manufacturer": "NextKon",
+	"products": ["Screen"],
+	"keywords": ["name sign", "name tag", "digital signage", "lectern", "conference", "nameplate", "Namensschild"]
+}
